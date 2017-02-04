@@ -1,3 +1,5 @@
 bin/*
-/.gradle/
-/.metadata/
+\.gradle/
+\.metadata/
+*.class
+build/*
