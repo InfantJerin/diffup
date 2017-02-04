@@ -4,12 +4,13 @@ apply plugin: 'java'
 // In this section you declare where to find the dependencies of your project
 repositories {
    
-    jcenter()
+     mavenCentral()
 }
 
 // In this section you declare the dependencies for your production and test code
 dependencies {
     compile 'org.slf4j:slf4j-api:1.7.21'
+    compile group:'org.apache.commons', module:'commons-lang3', version:'3.0'
 
    
     testCompile 'junit:junit:4.12'
