@@ -34,6 +34,7 @@ public class Tester {
 		
 		ReconEngine engine = new ReconEngine();
 		engine.doRecon(p1.address, p2.address, (db,or) -> db.address.compareTo(or.address));
+		engine.doRecon(p1.phoneBook, p2.phoneBook,(db,or) -> db.id.compareTo(or.id));
 
 
 	}
